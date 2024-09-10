@@ -1,0 +1,57 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: darkgray;
+            border: 2px solid red;
+            width: 40%;
+            margin-left: 20%;
+            margin-top: 20px;
+        }
+
+        .container .item {
+            display: flex;
+        }
+        h1 {
+            margin-left: 150px;
+        }
+        p {
+            margin-left: 50px;
+        }
+        input {
+            width: 70%;
+            height: 30px;
+            margin-top: 7px;
+        }
+        .year {
+            margin-left: 0px;
+        }
+        
+        select {
+            width: 55px;
+            height: 30px;
+            margin-left: 40px;
+            margin-top: 7px;
+
+        }
+       
+        .btn {
+            margin-left: 40%;
+        }
+        button {
+            padding: 7px;
+        }
+      
+
+        .text {
+            margin-left: 80px;
+        }
+
+        .text .display {
+            font-size: 40px;
+        }
+

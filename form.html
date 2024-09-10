@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+    <link rel="stylesheet" href="./form.css">
+    <script src="./form.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            
+            <h1>BANG DIEM CUA EM</h1>
+            <div class="item">
+                <p>Semester1:</p>
+                <input type="text" id="se1" style="margin-left: 4px;">
+            </div>
+            <div class="item">
+                <p>Semester2:</p>
+                <input type="text" id="se2" style="margin-left: 4px;">
+            </div>
+            <div class="item">
+                <p>Year:</p>
+                <select style="color: red;" id="select" style="margin-left: 4px;">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    
+                </select>
+            </div>
+            <div class="item">
+                <p>Summarise:</p>
+                <input type="text" name="result" id="result" disabled="true" >
+            </div>
+            <div class="text">
+                <p id="display"></p>
+            </div>
+            <div class="btn">
+                <button type="button" name="ok" id="ok" value="OK" onclick="myFunction1()">OK</button>
+                <button type="button" name="cancel" style="margin-left: 20px;" id="cancel" value="cancel" onclick="myFunction2()">Cancel</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
